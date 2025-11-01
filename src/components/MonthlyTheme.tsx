@@ -38,8 +38,11 @@ const MonthlyTheme = () => {
                 <Button
                   size="lg"
                   className="font-body bg-primary text-primary-foreground hover:bg-primary/90 transition-all duration-300"
+                  asChild
                 >
-                  Submit Your Work
+                  <a href="https://docs.google.com/forms/d/e/1FAIpQLSfTvFUxo-fgRlq7iyF49e1h53tEOXUijrMugEGfRO_O16-3MA/viewform?pli=1" target="_blank" rel="noopener noreferrer">
+                    Submit Your Work
+                  </a>
                 </Button>
               </div>
             </Card>
