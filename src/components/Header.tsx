@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Menu, X, Instagram, Music } from "lucide-react";
 import { Button } from "./ui/button";
-import swanEmblem from "@/assets/swan-emblem.png";
+import ephemerisLogo from "@/assets/ephemeris-logo.png";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -20,11 +20,12 @@ const Header = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between py-4">
           {/* Logo */}
-          <div className="flex flex-col items-center space-y-1">
-            <img src={swanEmblem} alt="Swan" className="h-8 w-8 opacity-80" />
-            <h1 className="font-display text-2xl md:text-3xl font-bold tracking-wider text-primary">
-              EPHEMERIS
-            </h1>
+          <div className="flex items-center">
+            <img 
+              src={ephemerisLogo} 
+              alt="Ephemeris Magazine" 
+              className="h-20 w-auto"
+            />
           </div>
 
           {/* Desktop Navigation */}
