@@ -20,7 +20,7 @@ const Spotify = () => {
           <div className="rounded-lg overflow-hidden shadow-vintage">
             <iframe
               style={{ borderRadius: "12px" }}
-              src="https://open.spotify.com/embed/playlist/37i9dQZF1DX4dyzvuaRJ0n?utm_source=generator"
+              src="https://open.spotify.com/embed/playlist/1vVLauo0szXIrB3FUyHr6U?utm_source=generator"
               width="100%"
               height="380"
               frameBorder="0"
