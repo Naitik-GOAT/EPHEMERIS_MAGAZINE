@@ -6,19 +6,19 @@ const Social = () => {
     {
       name: "Instagram",
       icon: Instagram,
-      href: "https://instagram.com",
+      href: "https://www.instagram.com/ephemerismagazine/",
       description: "Follow our daily moments",
     },
     {
       name: "Spotify",
       icon: Music,
-      href: "https://open.spotify.com",
+      href: "https://open.spotify.com/user/31yic5wmz7qwixvxky6kxv4jcbfq?si=lxd21UCLR_GA11rsZaPG6g&nd=1&dlsi=62cb2a3f7f6d44d2",
       description: "Listen to our playlists",
     },
     {
       name: "Pinterest",
       icon: Image,
-      href: "https://pinterest.com",
+      href: "https://www.pinterest.com/ephemerismagazine/",
       description: "Explore our visual moodboards",
     },
   ];
@@ -61,15 +61,17 @@ const Social = () => {
                 </a>
               );
             })}
-          </div>
+          </div
 
           <div className="text-center pt-8">
-            <Button
-              size="lg"
-              className="font-body bg-primary text-primary-foreground hover:bg-primary/90 transition-all duration-300"
-            >
-              Get in Touch
-            </Button>
+            <a href="mailto:ephemerismagazine@gmail.com">
+              <Button
+                size="lg"
+                className="font-body bg-primary text-primary-foreground hover:bg-primary/90 transition-all duration-300"
+              >
+                Get in Touch
+              </Button>
+            </a>  
           </div>
         </div>
       </div>
