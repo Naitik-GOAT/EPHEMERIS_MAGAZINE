@@ -61,7 +61,7 @@ const Social = () => {
                 </a>
               );
             })}
-          </div
+          </div>
 
           <div className="text-center pt-8">
             <a href="mailto:ephemerismagazine@gmail.com">
